@@ -28,8 +28,12 @@
   display: none;
 }
 
-
-
 html {
   margin: 15px;
+}
+
+.invisible-button {
+  background-color:transparent; 
+  border:transparent; 
+  outline: none;
 }
