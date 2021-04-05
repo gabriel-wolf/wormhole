@@ -1,0 +1,35 @@
+/* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+  .colorchangey div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+.ci {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+.ct {
+    text-align: center !important;
+}
+
+.no-show {
+  display: none;
+}
+
+
+
+html {
+  margin: 15px;
+}
