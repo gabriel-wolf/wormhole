@@ -32,8 +32,14 @@ const btn = document.querySelector(".btn-toggle");
 // }
 
 
+// window.scroll = false;
 
 $(".clickdiv").click(function() {
     window.location = "index.html#section02";
+    document.getElementById("html").style.overflow = "auto";
     return false;
   });
+
+
+  document.getElementById("html").style.overflow = "hidden";
+

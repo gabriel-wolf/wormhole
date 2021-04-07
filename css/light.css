@@ -1,15 +1,20 @@
+@font-face {
+    font-family: "interstellar-fnt";
+    src: url("../fnt/alternative-interstellar-font/OPTIBodoni-Antiqua.otf");
+  }
+
 :root {
     --white:#f1f1f1
   }
   .fullvh-body div {
-    height: 88vh;
+    height: 85vh;
   }
   .light-body div {
     margin: 0;
-    font-family: Montserrat;
-    font-size: 86px;
+    font-family: interstellar-fnt;
+    font-size: 5.5vw;
     color: var(--white);
-    letter-spacing: 0.7em;
+    letter-spacing: 0.5em;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -19,8 +24,8 @@
     opacity: 0.15;
   }
   #I {
-    opacity: 1;
-    animation: flickerI 20s linear  reverse infinite;
+    opacity: 0.55;
+    animation: flickerI 55s ease-in-out  reverse infinite;
   }
   #I::after {
     content: '';
@@ -30,7 +35,7 @@
     box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
   }
   #L, #G {
-    animation: flickerLG 20s linear reverse infinite;
+    animation: flickerLG 44s ease-in-out reverse infinite;
     position: relative;
   }
   #L::after, 
@@ -55,11 +60,11 @@
     filter: blur(10px);
   }
   #H {
-    animation: flickerH 20s linear reverse infinite
+    animation: flickerH 34s ease-in-out reverse infinite
   }
   
   #T {
-    animation: flickerH 20s linear reverse infinite
+    animation: flickerH 21s ease-in-out reverse infinite
   }
   
   @keyframes flickerI {
