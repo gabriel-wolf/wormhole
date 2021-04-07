@@ -6,10 +6,14 @@
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/light-switch.css">
+    <link rel="stylesheet" href="css/scroll.css">
     <link rel="stylesheet" href="css/light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="css/dark-theme.css" rel="stylesheet" id="theme-link">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
         rel="stylesheet">
@@ -45,93 +49,144 @@
 
 
 <body>
+    <!-- section 1 -->
 
-    <!-- interstellar top text -->
-    <div class="light-body">
-        <div>
-            <!-- <span id="L">W</span>
-            <span id="I">O</span>
-            <span id="G">R</span>
-            <span id="H">M</span>
-            <span id="T">H</span>
-            <span id="H">O</span>
-            <span id="I">L</span>
-            <span id="T">E</span> -->
 
-            <span id="L">I</span>
-            <span id="I">N</span>
-            <span id="G">T</span>
-            <span id="H">E</span>
-            <span id="T">R</span>
-            <span id="H">S</span>
-            <span id="I">T</span>
-            <span id="T">E</span>
-            <span id="G">L</span>
-            <span id="L">L</span>
-            <span id="G">A</span>
-            <span id="H">R</span>
+    <section id="section01">
+        <!-- interstellar top text -->
+
+        <div class="">
+
+
+
+            <div class="light-body fullvh-body">
+
+                <div>
+                    <!-- <span id="L">W</span>
+                <span id="I">O</span>
+                <span id="G">R</span>
+                <span id="H">M</span>
+                <span id="T">H</span>
+                <span id="H">O</span>
+                <span id="I">L</span>
+                <span id="T">E</span> -->
+
+                    <span id="L">I</span>
+                    <span id="I">N</span>
+                    <span id="G">T</span>
+                    <span id="H">E</span>
+                    <span id="T">R</span>
+                    <span id="H">S</span>
+                    <span id="I">T</span>
+                    <span id="T">E</span>
+                    <span id="G">L</span>
+                    <span id="L">L</span>
+                    <span id="G">A</span>
+                    <span id="H">R</span>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="clickdiv" style="width:auto;height:12vh;z-index:999999999999;">
+
+                <a href="#section02" style="text-decoration:none;">
+                    
+                <div class="mouse_scroll">
+
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                        <span class="m_scroll_arrows trei"></span>
+                    </div>
+                </div>
+
+                </a>
+
+
+            </div>
+
 
 
         </div>
-    </div>
+        </div>
 
-    <!-- light dark switch -->
-    <div class="sticky" style="margin:5%;">
-        <button class="invisible-button btn-toggle">
-            <span class="w3-tag w3-circle w3-large w3-padding w3-transparent">
-                <!-- style="transform:rotate(-5deg)" -->
-                <main>
-                    <input class="l" type="checkbox">
-                </main>
-                <!-- <i class="switch-dl fa fa-adjust"></i> -->
-            </span>
-        </button>
-    </div>
 
+    </section>
+
+    <br><br><br><br>
 
     <!-- main content -->
     <div style="margin-right:10%; margin-left:10%;">
 
-        <h1 id="home" class="ct">Wormholes</h1>
-
-
-        <div class="w3-container">
-            <p class="ct w3-xlarge gw-tooltip w3-tooltip">the crew used a
-                <span class="w3-purple w3-text w3-tag w3-animate-opacity">wormhole</span>
-                to traverse
-                <span class="w3-blue w3-text w3-tag w3-animate-opacity">spacetime</span>
-            </p>
+        <!-- light dark switch -->
+        <div class="no-show notsticky" style="margin-left:5%;">
+            <button class="invisible-button btn-toggle">
+                <span class="w3-tag w3-circle w3-large w3-padding w3-transparent">
+                    <!-- style="transform:rotate(-5deg)" -->
+                    <main>
+                        <input class="l" type="checkbox">
+                    </main>
+                    <!-- <i class="switch-dl fa fa-adjust"></i> -->
+                </span>
+            </button>
         </div>
 
-        <p>
-            Curabitur mollis scelerisque tellus,
-            eget ullamcorper magna lacinia finibus. Praesent lorem diam, semper at interdum at, fermentum sed risus.
-            Quisque venenatis eget ligula vel sodales. Duis dictum, sapien ac vestibulum efficitur, ex ipsum lobortis
-            nisi, eu tincidunt ante turpis a dui. Fusce fermentum fermentum facilisis. Pellentesque interdum, purus a
-            aliquam vulputate, sem tellus vehicula arcu, ac suscipit lacus leo at felis.
-        </p>
 
-        <!-- video -->
-        <div class="w3-container">
-            <!-- autoplay video script -->
-            <script>
-                const VideoController = function (isHovering, videoElement) {
-                    if (isHovering == true) {
-                        videoElement.play();
-                    }
-                    else if (isHovering == false) {
-                        videoElement.pause();
-                    }
-                }
-            </script>
-            <div class="ci">
-                <video class="ci" id="autoplay" width="75%" height="auto" onmouseenter='VideoController(true, this)'
-                    onmouseleave='VideoController(false, this)'>
-                    <source src="vids/wormhole-scene.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+        <!-- sect 2 -->
+        <!-- wormholes section -->
+        <section id="section02" class="sect">
+            <h1 id="home" class="ct">Wormholes</h1>
+
+
+            <div class="w3-container">
+                <p class="ct w3-xlarge gw-tooltip w3-tooltip">the crew used a
+                    <span class="w3-purple w3-text w3-tag w3-animate-opacity">wormhole</span>
+                    to traverse
+                    <span class="w3-blue w3-text w3-tag w3-animate-opacity">spacetime</span>
+                </p>
             </div>
-        </div>
+
+            <p>
+                Curabitur mollis scelerisque tellus,
+                eget ullamcorper magna lacinia finibus. Praesent lorem diam, semper at interdum at, fermentum sed risus.
+                Quisque venenatis eget ligula vel sodales. Duis dictum, sapien ac vestibulum efficitur, ex ipsum
+                lobortis
+                nisi, eu tincidunt ante turpis a dui. Fusce fermentum fermentum facilisis. Pellentesque interdum, purus
+                a
+                aliquam vulputate, sem tellus vehicula arcu, ac suscipit lacus leo at felis.
+            </p>
+
+            <!-- video -->
+            <div class="w3-container">
+                <!-- autoplay video script -->
+                <script>
+                    const VideoController = function (isHovering, videoElement) {
+                        if (isHovering == true) {
+                            videoElement.play();
+                        }
+                        else if (isHovering == false) {
+                            videoElement.pause();
+                        }
+                    }
+                </script>
+                <div class="ci">
+                    <video class="ci" id="autoplay" width="75%" height="auto" onmouseenter='VideoController(true, this)'
+                        onmouseleave='VideoController(false, this)'>
+                        <source src="vids/wormhole-scene.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+
+        </section>
 
 
         <!-- film section -->
@@ -304,6 +359,13 @@
 </body>
 
 <script src="js/script.js"></script>
-
+<!-- <script>
+    $(function () {
+        $('a[href*=#]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
+        });
+    });
+</script> -->
 
 </html>

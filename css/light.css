@@ -1,6 +1,9 @@
 :root {
     --white:#f1f1f1
   }
+  .fullvh-body div {
+    height: 88vh;
+  }
   .light-body div {
     margin: 0;
     font-family: Montserrat;
@@ -11,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
   div > span {
     opacity: 0.15;
