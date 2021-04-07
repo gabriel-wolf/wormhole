@@ -5,47 +5,137 @@
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/light-switch.css">
+    <link rel="stylesheet" href="css/light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="css/dark-theme.css" rel="stylesheet" id="theme-link">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
         rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- smooth scrolling script -->
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </head>
 
 
-<body style="margin-right:10%; margin-left:10%;">
+<body>
 
-    <div class="w3-container w3-display-topleft">
+    <!-- interstellar top text -->
+    <div class="light-body">
+        <div>
+            <!-- <span id="L">W</span>
+            <span id="I">O</span>
+            <span id="G">R</span>
+            <span id="H">M</span>
+            <span id="T">H</span>
+            <span id="H">O</span>
+            <span id="I">L</span>
+            <span id="T">E</span> -->
+
+            <span id="L">I</span>
+            <span id="I">N</span>
+            <span id="G">T</span>
+            <span id="H">E</span>
+            <span id="T">R</span>
+            <span id="H">S</span>
+            <span id="I">T</span>
+            <span id="T">E</span>
+            <span id="G">L</span>
+            <span id="L">L</span>
+            <span id="G">A</span>
+            <span id="H">R</span>
+
+
+        </div>
+    </div>
+
+    <!-- light dark switch -->
+    <div class="sticky" style="margin:5%;">
         <button class="invisible-button btn-toggle">
             <span class="w3-tag w3-circle w3-large w3-padding w3-transparent">
                 <!-- style="transform:rotate(-5deg)" -->
-                <i class="switch-dl fa fa-adjust"></i>
+                <main>
+                    <input class="l" type="checkbox">
+                </main>
+                <!-- <i class="switch-dl fa fa-adjust"></i> -->
             </span>
         </button>
     </div>
 
-    <h1 class="ct">Wormholes</h1>
+
+    <!-- main content -->
+    <div style="margin-right:10%; margin-left:10%;">
+
+        <h1 id="home" class="ct">Wormholes</h1>
 
 
-    <div class="w3-container">
-        <p class="ct w3-xlarge gw-tooltip w3-tooltip">the crew used a 
-            <span class="w3-purple w3-text w3-tag w3-animate-opacity">wormhole</span> 
-            to traverse  
-            <span class="w3-blue w3-text w3-tag w3-animate-opacity">spacetime</span>
+        <div class="w3-container">
+            <p class="ct w3-xlarge gw-tooltip w3-tooltip">the crew used a
+                <span class="w3-purple w3-text w3-tag w3-animate-opacity">wormhole</span>
+                to traverse
+                <span class="w3-blue w3-text w3-tag w3-animate-opacity">spacetime</span>
             </p>
-    </div>
+        </div>
+
+        <p>
+            Curabitur mollis scelerisque tellus,
+            eget ullamcorper magna lacinia finibus. Praesent lorem diam, semper at interdum at, fermentum sed risus.
+            Quisque venenatis eget ligula vel sodales. Duis dictum, sapien ac vestibulum efficitur, ex ipsum lobortis
+            nisi, eu tincidunt ante turpis a dui. Fusce fermentum fermentum facilisis. Pellentesque interdum, purus a
+            aliquam vulputate, sem tellus vehicula arcu, ac suscipit lacus leo at felis.
+        </p>
+
+        <!-- video -->
+        <div class="w3-container">
+            <!-- autoplay video script -->
+            <script>
+                const VideoController = function (isHovering, videoElement) {
+                    if (isHovering == true) {
+                        videoElement.play();
+                    }
+                    else if (isHovering == false) {
+                        videoElement.pause();
+                    }
+                }
+            </script>
+            <div class="ci">
+                <video class="ci" id="autoplay" width="75%" height="auto" onmouseenter='VideoController(true, this)'
+                    onmouseleave='VideoController(false, this)'>
+                    <source src="vids/wormhole-scene.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
+        <!-- film section -->
+        <h1 id="film" class="ct">Interstellar</h1>
 
 
         <p>
@@ -53,50 +143,8 @@
             ex nibh. Quisque imperdiet sem tellus, a imperdiet eros egestas a. Nulla facilisi. Maecenas malesuada vitae
             neque non semper. Vivamus ac facilisis ex. Proin porta ultricies ultricies. Nulla luctus ipsum sed feugiat
             faucibus. Cras rhoncus semper libero id euismod. Pellentesque tincidunt, felis sagittis ultrices
-            condimentum, odio nibh posuere augue, id suscipit metus magna id augue. Curabitur mollis scelerisque tellus,
-            eget ullamcorper magna lacinia finibus. Praesent lorem diam, semper at interdum at, fermentum sed risus.
-            Quisque venenatis eget ligula vel sodales. Duis dictum, sapien ac vestibulum efficitur, ex ipsum lobortis
-            nisi, eu tincidunt ante turpis a dui. Fusce fermentum fermentum facilisis. Pellentesque interdum, purus a
-            aliquam vulputate, sem tellus vehicula arcu, ac suscipit lacus leo at felis.
-        </p>
-
-        <div class="w3-container">
-            <div class="ct gw-tooltip w3-tooltip">
-                
-               <div class="ci">
-                <img class="w3-round w3-opacity w3-hover-opacity-off" src="imgs/hole01.jpg" alt="image of hole 01"
-                width="45%">
-               </div>
-    
-               <p class="w3-animate-opacity ci w3-text">Wormhole from
-                <a
-                    href="https://www.newscientist.com/article/2253157-travelling-through-a-wormhole-without-dying-may-actually-be-possible">
-                    New Scientist
-                </a>
-            </p>
-                    <!-- style="position:absolute;"  -->
-            </div>
-
-
-        <p>
-            Aenean fermentum sagittis libero, id interdum enim hendrerit sed. Fusce id ipsum ut dolor mollis accumsan
-            efficitur ut urna. Duis at sollicitudin est. Sed porttitor dui ac tincidunt mattis. Etiam nisi metus,
-            tincidunt eu gravida sed, consectetur in purus. Fusce dapibus, dui dapibus condimentum fermentum, est libero
-            vehicula tortor, sed pulvinar libero justo vel mauris. Integer bibendum enim lectus, vel dignissim enim
-            pharetra sed. Integer nec molestie erat, eu fringilla risus. Curabitur mattis ipsum mauris, ut posuere enim
-            commodo vitae.
-        </p>
-
-
-        <div class="w3-container ci ct" style="width:fit-content;">
-            <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow w3-rightbar">
-                <p>London is the most populous city in the United Kingdom,
-                    with a metropolitan area of over 9 million inhabitants.</p>
-            </div>
-        </div>
-
-
-        <p>
+            condimentum, odio nibh posuere augue, id suscipit metus magna id augue.
+            <br><br>
             Proin ac ultrices augue, nec laoreet risus. Vestibulum pellentesque varius ipsum et pellentesque. Ut pretium
             leo convallis mi dictum sagittis. Fusce fringilla, nisi vel auctor ultricies, sem mi varius leo, eu congue
             sapien nibh a sem. Sed ut pellentesque tortor. Fusce nec rhoncus dolor. Vivamus vel lacus quis augue mollis
@@ -106,24 +154,112 @@
             elementum ante vel diam finibus porttitor vel porttitor dui. Quisque fermentum dui ut sem eleifend, id
             vehicula risus pharetra. Cras tempor semper risus nec tincidunt.
         </p>
-        <p>
-            Fusce vehicula felis et augue semper commodo. Nunc vitae elit non arcu rutrum volutpat maximus quis neque.
-            Phasellus ut luctus turpis. Etiam id risus eget lorem lobortis ultrices. Nam imperdiet, diam et bibendum
-            placerat, neque dui viverra metus, vitae euismod sapien orci in odio. Phasellus sit amet felis id velit
-            scelerisque molestie. Phasellus sit amet lacus nisl.
-        </p>
-        <p>
-            Integer tempus elementum ligula sed interdum. Vestibulum rhoncus quam et ligula luctus egestas. In orci
-            diam, faucibus ac urna nec, pretium congue nisl. Nulla pulvinar enim sit amet molestie tempus. Duis aliquet
-            erat nisi, sit amet porttitor nibh porttitor at. Phasellus in eleifend quam. Integer a velit eros. Phasellus
-            et dolor vulputate, iaculis leo nec, interdum risus. Proin libero augue, fringilla quis tellus a, pulvinar
-            ultrices diam. In finibus sapien aliquet, mattis tellus a, dictum lacus. Vivamus eget porttitor nisl. Duis
-            vitae turpis sed neque tincidunt porttitor eget in purus. Integer gravida sapien ac est pharetra, et
-            vulputate turpis pharetra. Quisque ultricies sem nulla, eget mollis neque porta non.
-        </p>
 
 
-        <!--         
+
+        <div class="w3-container ci ct" style="width:fit-content;">
+            <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue w3-rightbar">
+                <p>London is the most populous city in the United Kingdom,
+                    with a metropolitan area of over 9 million inhabitants.</p>
+            </div>
+        </div>
+
+        <!-- image w/hover caption -->
+        <div class="ct gw-tooltip w3-tooltip">
+
+            <div class="ci">
+                <img class="w3-round w3-opacity w3-hover-opacity-off" src="imgs/hole01.jpg" alt="image of hole 01"
+                    width="45%">
+            </div>
+
+            <p class="w3-animate-opacity ci w3-text">Wormhole from
+                <a
+                    href="https://www.newscientist.com/article/2253157-travelling-through-a-wormhole-without-dying-may-actually-be-possible">
+                    New Scientist
+                </a>
+            </p>
+            <!-- style="position:absolute;"  -->
+        </div>
+
+
+
+
+        <div class="w3-container">
+            <p class="ct w3-xlarge gw-tooltip w3-tooltip">the crew used a
+                <span class="w3-purple w3-text w3-tag w3-animate-opacity">wormhole</span>
+                to traverse
+                <span class="w3-blue w3-text w3-tag w3-animate-opacity">spacetime</span>
+            </p>
+        </div>
+
+
+
+
+
+
+
+        <div class="w3-container">
+
+
+
+            <p>
+                Aenean fermentum sagittis libero, id interdum enim hendrerit sed. Fusce id ipsum ut dolor mollis
+                accumsan
+                efficitur ut urna. Duis at sollicitudin est. Sed porttitor dui ac tincidunt mattis. Etiam nisi metus,
+                tincidunt eu gravida sed, consectetur in purus. Fusce dapibus, dui dapibus condimentum fermentum, est
+                libero
+                vehicula tortor, sed pulvinar libero justo vel mauris. Integer bibendum enim lectus, vel dignissim enim
+                pharetra sed. Integer nec molestie erat, eu fringilla risus. Curabitur mattis ipsum mauris, ut posuere
+                enim
+                commodo vitae.
+            </p>
+
+
+            <div class="w3-container ci ct" style="width:fit-content;">
+                <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow w3-rightbar">
+                    <p>London is the most populous city in the United Kingdom,
+                        with a metropolitan area of over 9 million inhabitants.</p>
+                </div>
+            </div>
+
+
+            <p>
+                Proin ac ultrices augue, nec laoreet risus. Vestibulum pellentesque varius ipsum et pellentesque. Ut
+                pretium
+                leo convallis mi dictum sagittis. Fusce fringilla, nisi vel auctor ultricies, sem mi varius leo, eu
+                congue
+                sapien nibh a sem. Sed ut pellentesque tortor. Fusce nec rhoncus dolor. Vivamus vel lacus quis augue
+                mollis
+                rhoncus at quis dui. Sed odio ipsum, accumsan non felis sodales, iaculis tristique diam. Aliquam
+                efficitur
+                urna ac nunc commodo suscipit. Nullam ornare tellus et tellus posuere dapibus. Donec pellentesque ex a
+                mauris pharetra euismod eget a libero. Suspendisse lobortis magna vitae tellus viverra viverra. Sed
+                elementum ante vel diam finibus porttitor vel porttitor dui. Quisque fermentum dui ut sem eleifend, id
+                vehicula risus pharetra. Cras tempor semper risus nec tincidunt.
+            </p>
+            <p>
+                Fusce vehicula felis et augue semper commodo. Nunc vitae elit non arcu rutrum volutpat maximus quis
+                neque.
+                Phasellus ut luctus turpis. Etiam id risus eget lorem lobortis ultrices. Nam imperdiet, diam et bibendum
+                placerat, neque dui viverra metus, vitae euismod sapien orci in odio. Phasellus sit amet felis id velit
+                scelerisque molestie. Phasellus sit amet lacus nisl.
+            </p>
+            <p>
+                Integer tempus elementum ligula sed interdum. Vestibulum rhoncus quam et ligula luctus egestas. In orci
+                diam, faucibus ac urna nec, pretium congue nisl. Nulla pulvinar enim sit amet molestie tempus. Duis
+                aliquet
+                erat nisi, sit amet porttitor nibh porttitor at. Phasellus in eleifend quam. Integer a velit eros.
+                Phasellus
+                et dolor vulputate, iaculis leo nec, interdum risus. Proin libero augue, fringilla quis tellus a,
+                pulvinar
+                ultrices diam. In finibus sapien aliquet, mattis tellus a, dictum lacus. Vivamus eget porttitor nisl.
+                Duis
+                vitae turpis sed neque tincidunt porttitor eget in purus. Integer gravida sapien ac est pharetra, et
+                vulputate turpis pharetra. Quisque ultricies sem nulla, eget mollis neque porta non.
+            </p>
+
+
+            <!--         
 <div class="w3-container ci ct">
     <div class="w3-panel w3-card-4 w3-light-grey" style="width:50%">
       <p class=" w3-large w3-serif">
@@ -132,8 +268,8 @@
     </div>
   </div> -->
 
-        
-<!-- 
+
+            <!-- 
         <button class="w3-btn w3-green" onclick="document.getElementById('id01').style.display='block'">Show panel</button>
 
         <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
@@ -148,7 +284,7 @@
 
 
 
-        <!-- 
+            <!-- 
             <div class="w3-panel w3-red w3-display-container ci" style="width:75%;">
                 <span onclick="this.parentElement.style.display='none'"
                 class="w3-button w3-large w3-display-topright">&times;</span>
@@ -159,8 +295,9 @@
 
 
 
-        <!-- <p class="w3-tooltip">The crew use a <span class="w3-text w3-tag w3-animate-opacity">wormhole</span> to travel to a different time.</p> -->
+            <!-- <p class="w3-tooltip">The crew use a <span class="w3-text w3-tag w3-animate-opacity">wormhole</span> to travel to a different time.</p> -->
 
+        </div>
     </div>
 
 

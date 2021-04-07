@@ -17,6 +17,8 @@
 
 html {
   /* margin: 15px; */
+  /* scroll-behavior: smooth; */
+
 }
 
 .invisible-button {
@@ -31,4 +33,11 @@ html {
 
 .gw-tooltip {
   transition-delay: 2s;
+}
+
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky !important;
+  top: 0;
 }
