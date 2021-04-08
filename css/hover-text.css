@@ -1,0 +1,46 @@
+ins, del{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 .3em;
+  }
+  ins {
+    background: rgba(231, 76, 60,.5);
+    height: auto;
+    border-radius: .3em;
+    display: inline; 
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    margin-left: .07em;
+    margin-right: .07em;
+  }
+  del {
+    background: #a53bcf;
+    cursor: no-drop;
+    position: relative;
+    top: .2em;
+    height: 1.31em;
+    width: .4em;
+    line-height: 1.35;
+    overflow: hidden;
+    color: transparent;
+    margin: -.4em .07em -.05em .07em;
+    padding: 0 0 .1em 0;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    border-radius: .3em;
+    transition: padding-left ease .3s, padding-right ease .3s, color ease .15s;
+  }
+  del:hover {
+    width: auto;
+    /* color: #962e22; */
+    color: white;
+    display: inline;
+    padding: 0.15em .15em 0.15em 0.15em;
+    line-height: unset;
+    position: unset;
+    top: unset;
+    height: unset;
+    transition: padding-left ease .3s, padding-right ease .3s, color ease .7s;
+  }

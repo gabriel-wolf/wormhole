@@ -6,19 +6,23 @@
 <html id="html" style="overflow:auto;">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
+        rel="stylesheet">
+    <link href="css/dark-theme.css" rel="stylesheet" id="theme-link">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/light-switch.css">
     <link rel="stylesheet" href="css/scroll.css">
     <link rel="stylesheet" href="css/light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="css/dark-theme.css" rel="stylesheet" id="theme-link">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/hover-text.css">
+    <link rel="stylesheet" href="css/glitch.css">
+    <link rel="stylesheet" href="css/dict-popup.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
-        rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- smooth scrolling script -->
     <script>
@@ -57,14 +61,19 @@
     <section id="section01">
         <!-- interstellar top text -->
 
-        <div class="">
+        <div class="fullvh-body body-glitch">
+            <div class="div-glitch" title="404">
+                WORMHOLE
+            </div>
 
 
+        </div>
 
-            <div class="light-body fullvh-body">
 
-                <div style="color:florawhite;">
-                    <!-- <span id="L">W</span>
+        <div class="no-show light-body fullvh-body">
+
+            <div style="color:florawhite;">
+                <!-- <span id="L">W</span>
                 <span id="I">O</span>
                 <span id="G">R</span>
                 <span id="H">M</span>
@@ -73,50 +82,49 @@
                 <span id="I">L</span>
                 <span id="T">E</span> -->
 
-                    <span id="L">I</span>
-                    <span id="I">N</span>
-                    <span id="G">T</span>
-                    <span id="H">E</span>
-                    <span id="T">R</span>
-                    <span id="H">S</span>
-                    <span id="H">T</span>
-                    <span id="I">E</span>
-                    <span id="G">L</span>
-                    <span id="L">L</span>
-                    <span id="G">A</span>
-                    <span id="H">R</span>
-
-                </div>
-
+                <span id="L">I</span>
+                <span id="I">N</span>
+                <span id="G">T</span>
+                <span id="H">E</span>
+                <span id="T">R</span>
+                <span id="H">S</span>
+                <span id="H">T</span>
+                <span id="I">E</span>
+                <span id="G">L</span>
+                <span id="L">L</span>
+                <span id="G">A</span>
+                <span id="H">R</span>
 
             </div>
-
-
-
-            <div class="clickdiv" style="width:auto;height:15vh;z-index:999999999999;">
-
-                <a href="#section02" style="text-decoration:none;">
-
-                    <div class="mouse_scroll">
-
-                        <div class="mouse">
-                            <div class="wheel"></div>
-                        </div>
-                        <div>
-                            <span class="m_scroll_arrows unu"></span>
-                            <span class="m_scroll_arrows doi"></span>
-                            <span class="m_scroll_arrows trei"></span>
-                        </div>
-                    </div>
-
-                </a>
-
-
-            </div>
-
 
 
         </div>
+
+
+
+        <div class="clickdiv" style="width:auto;height:15vh;z-index:999999999999;">
+
+            <a href="#section02" style="text-decoration:none;">
+
+                <div class="mouse_scroll">
+
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                        <span class="m_scroll_arrows trei"></span>
+                    </div>
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+
         </div>
 
 
@@ -146,12 +154,21 @@
         <section id="section02" class="sect">
             <h1 id="home" class="ct">Wormholes</h1>
 
-
             <div class="w3-container">
-                <p class="ct w3-xlarge gw-tooltip w3-tooltip">the crew used a
-                    <span class="w3-purple w3-text w3-tag w3-animate-opacity">wormhole</span>
+                <p class="ct w3-xlarge gw-tooltip w3-tooltip quote">
+
+                    the crew used a
+                    <span onclick="void(0);" class="tooltip">wormhole
+                        <span class="info">
+                            <span class="pronounce">From <a
+                                    href="https://www.nbcnews.com/science/science-news/spooky-physics-phenomenon-may-link-universes-wormholes-f2D11690659">NBC
+                                    News</a> and <a href="https://www.space.com/20881-wormholes.html">Space.com</a></span>
+                            <span class="text">A <b>wormhole</b> (also known as Einstein–Rosen bridge) is a passage through spacetime creating shortcuts for long journeys across the universe.</span>
+                        </span>
+                    </span>
                     to traverse
-                    <span class="w3-blue w3-text w3-tag w3-animate-opacity">spacetime</span>
+                    <del>spacetime</del>
+
                 </p>
             </div>
 
