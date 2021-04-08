@@ -36,7 +36,7 @@ const btn = document.querySelector(".btn-toggle");
 
 $(".clickdiv").click(function() {
     window.location = "index.html#section02";
-    document.getElementById("html").style.overflow = "auto";
+    // document.getElementById("html").style.overflow = "auto";
     return false;
   });
 
