@@ -41,5 +41,4 @@ $(".clickdiv").click(function() {
   });
 
 
-//   document.getElementById("html").style.overflow = "hidden";
 
