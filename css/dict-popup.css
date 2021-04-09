@@ -56,10 +56,24 @@
   display: inline-block;
   /* background: #286F8A; */
   border-radius: 10px;
-  background: #0b6383;
+  /* background: #0b6383; */
+  /* background-image: url("../imgs/space01.jpg"); */
+  /* background-size: cover;  */
   padding: 0px 8px 5px 8px;
   margin: -10px 0;
   cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: rgb(13, 141, 214);
+}
+
+.tooltip:hover {
+  /* background-image: url("../imgs/space02.jpg"); */
+  /* background-size: cover; */
+  /* position: absolute; */
+  /* opacity: 0.75; */
+  text-decoration-line: none;
+  background: rgb(13, 141, 214);
 }
 
 .quote .tooltip:hover .info, .quote .tooltip:focus .info {
@@ -75,7 +89,10 @@
   left: -85px;
   display: block;
   /* background: #286F8A; */
-  background: #0b6383;
+  /* background: #0b6383; */
+  background: white;
+  border: rgb(13, 141, 214);
+  color: black;
   width: 300px;
   font-size: 16px;
   line-height: 24px;
@@ -105,14 +122,16 @@
   left: 50%;
   margin-left: -5px;
   /* background: #286F8A; */
-  background: #0b6383;
+  background: white;
+  opacity: 85;
 }
 
 .quote .tooltip .info .pronounce {
   display: block;
-  background: #fff;
+  background: rgb(13, 141, 214);
   /* color: #286F8A; */
-  color: #0b6383;
+  color: rgb(243, 243, 243);
+  opacity: 85;
   padding: 8px 17px 10px 17px;
   line-height: 16px;
 }

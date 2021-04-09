@@ -19,6 +19,15 @@ html {
   /* margin: 15px; */
   /* scroll-behavior: smooth; */
 
+
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 52px;
 }
 
 .invisible-button {
