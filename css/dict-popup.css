@@ -51,6 +51,12 @@
   line-height: 28px;
 }
 
+
+.nf-quote .tooltip {
+  padding: 0px 4px 2.5px 4px !important;
+}
+
+
 .quote .tooltip {
   position: relative;
   display: inline-block;
@@ -60,10 +66,11 @@
   /* background-image: url("../imgs/space01.jpg"); */
   /* background-size: cover;  */
   padding: 0px 8px 5px 8px;
+  /* padding: 0px 4px 2.5px 4px; */
   margin: -10px 0;
   cursor: pointer;
   text-decoration-line: underline;
-  text-decoration-style: dashed;
+  text-decoration-style: solid;
   text-decoration-color: rgb(13, 141, 214);
 }
 
@@ -72,8 +79,25 @@
   /* background-size: cover; */
   /* position: absolute; */
   /* opacity: 0.75; */
-  text-decoration-line: none;
-  background: rgb(13, 141, 214);
+
+  /* text-decoration-color: rgb(55, 98, 240) !important; */
+  text-decoration-style:dashed;
+
+
+  /* text-decoration-line: none; */
+  /* background: rgb(13, 141, 214); */
+}
+
+.nf-tooltip:hover {
+  /* background-image: url("../imgs/space02.jpg"); */
+  /* background-size: cover; */
+  /* position: absolute; */
+  /* opacity: 0.75; */
+  text-decoration-line: underline !important;
+  text-decoration: yellow !important;
+  text-decoration-style: dashed !important;
+  background: transparent !important;
+  /* background: rgb(13, 141, 214); */
 }
 
 .quote .tooltip:hover .info, .quote .tooltip:focus .info {
