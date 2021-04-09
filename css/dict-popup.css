@@ -22,6 +22,7 @@
   /* margin-top: 90px; */
   padding: 0 30px;
 }
+
 /* .quote:before {
   display: block;
   position: absolute;
@@ -34,6 +35,7 @@
   top: -100px;
   left: 7px;
 } */
+
 .quote p {
   position: relative;
   z-index: 1;
@@ -41,32 +43,39 @@
   line-height: 35px;
   margin: 20px 0;
 }
+
 .quote .author {
   font-weight: 300;
   font-style: italic;
   font-size: 20px;
   line-height: 28px;
 }
+
 .quote .tooltip {
   position: relative;
   display: inline-block;
-  background: #286F8A;
+  /* background: #286F8A; */
+  border-radius: 10px;
+  background: #5c9dff;
   padding: 0px 8px 5px 8px;
   margin: -10px 0;
   cursor: pointer;
 }
+
 .quote .tooltip:hover .info, .quote .tooltip:focus .info {
   visibility: visible;
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
 .quote .tooltip .info {
   box-sizing: border-box;
   position: absolute;
   bottom: 53px;
   left: -85px;
   display: block;
-  background: #286F8A;
+  /* background: #286F8A; */
+  background: #5c9dff;
   width: 300px;
   font-size: 16px;
   line-height: 24px;
@@ -76,6 +85,7 @@
   transform: translate3d(0, -20px, 0);
   transition: all 0.5s ease-out;
 }
+
 .quote .tooltip .info:before {
   position: absolute;
   content: "";
@@ -84,6 +94,7 @@
   bottom: -14px;
   left: 0;
 }
+
 .quote .tooltip .info:after {
   position: absolute;
   content: "";
@@ -93,15 +104,19 @@
   bottom: -5px;
   left: 50%;
   margin-left: -5px;
-  background: #286F8A;
+  /* background: #286F8A; */
+  background: #5c9dff;
 }
+
 .quote .tooltip .info .pronounce {
   display: block;
   background: #fff;
-  color: #286F8A;
+  /* color: #286F8A; */
+  color: #5c9dff;
   padding: 8px 17px 10px 17px;
   line-height: 16px;
 }
+
 .quote .tooltip .info .pronounce .fa {
   position: relative;
   margin-left: 10px;
@@ -109,11 +124,13 @@
   cursor: pointer;
   transition: all 0.2s ease-out;
 }
+
 .quote .tooltip .info .pronounce .fa:hover {
   transform: scale(1.15) translate3d(0, 0, 0);
   -webkit-backface-visibility: none;
-          backface-visibility: none;
+  backface-visibility: none;
 }
+
 .quote .tooltip .info .text {
   display: block;
   padding: 13px 17px;
