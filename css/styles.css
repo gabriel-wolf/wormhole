@@ -60,6 +60,9 @@ div.sticky {
   height: 50px;
 }
 
+.def-img {
+
+}
 
 .compact-margins {
   margin-left: 10%;
@@ -71,14 +74,18 @@ div.sticky {
 /* temp spot for new dict popup styles */
 
 .sticky {
-  color:rgb(74, 252, 148);
-  text-decoration: none;
+  /* color:rgb(74, 252, 148); */
   /* color:#0ec058; */
+  text-decoration: none;
+  text-decoration-color: rgb(13, 141, 214);
+  color:rgb(97, 195, 252);
 
 }
 
 .sticky:hover {
   text-decoration: underline;
+  text-decoration-style:solid;
+  text-decoration: underline !important;
 }
 
 

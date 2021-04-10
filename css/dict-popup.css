@@ -45,12 +45,38 @@
 }
 
 .bottom-span {
-font-size: x-small;
 color:black;
 background-color: rgb(218 218 218);
 display:block;
 line-height:150%;
 padding:5px;
+border-radius: 0px 0px 10px 10px;
+}
+
+.grid {
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  margin-top: 2.5px;
+}
+
+.grid a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.x-small {
+  font-size: x-small;
+}
+
+.small {
+  font-size: small;
+}
+
+
+.img-cap-span {
+  font-size: x-small;
+  font-style: italic;
+  color:navy;
 }
 
 .quote .author {
@@ -58,11 +84,6 @@ padding:5px;
   font-style: italic;
   font-size: 20px;
   line-height: 28px;
-}
-
-
-.nf-quote .tooltip {
-  padding: 0px 4px 2.5px 4px !important;
 }
 
 
@@ -112,6 +133,8 @@ padding:5px;
 
 .pronounce {
   text-align: center;
+  border-radius: 10px 10px 0px 0px;
+
 }
 
 .quote .tooltip .info {
@@ -135,6 +158,7 @@ padding:5px;
   opacity: 0;
   transform: translate3d(0, -20px, 0);
   transition: all 0.5s ease-out;
+  border-radius:  10px 10px 10px 10px;
 }
 
 .quote .tooltip .info:before {
@@ -156,7 +180,8 @@ padding:5px;
   left: 50%;
   margin-left: -5px;
   /* background: #286F8A; */
-  background: white;
+  /* background: white; */
+  background: rgb(218 218 218);
   opacity: 85;
 }
 
@@ -166,7 +191,10 @@ padding:5px;
   /* color: #286F8A; */
   color: rgb(243, 243, 243);
   opacity: 85;
+  font-size: large;
+  /* padding: 8px 17px 10px 17px; */
   padding: 8px 17px 10px 17px;
+
   line-height: 16px;
 }
 

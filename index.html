@@ -61,7 +61,7 @@
 </head>
 
 
-<body>
+<body onLoad="swapall(Text)">
 
     <DIV id="TipLayer" style="visibility:hidden;position:absolute;z-index:1000;top:-100"></DIV>
     <!-- <SCRIPT language="JavaScript1.2" src="js/sticky_text.js" type="text/javascript"></SCRIPT> -->
@@ -167,32 +167,41 @@
         <section class="sect" id="section02">
             <h1 class="ct" id="home">Wormholes</h1>
 
+
             <div class="w3-container compact-margins">
                 <p class="w3-xlarge nf-quote quote ct">
                     We are hoping that
+                
+                    <a class="swapme">wormhole</a>
+                    <a class="swapme">waste</a>
+                    <a class="swapme">singularity</a>
 
-                    <span onclick='void(0);' class='tooltip'>
+                    <!-- <a href class="sticky" onmousewheel="whatami(this)" onMouseOver="stm(this, Text['wormhole'])" onMouseOut='htm(this)' >wormhole</a> -->
+
+
+                    <!-- <span onclick='void(0);' class='tooltip'>
                         wormhole
                         <span class='info'>
-                            
                             <span class='pronounce'>
-
+                                Wormhole
                             </span>
                             <span class='text'>
                                 A wormhole (also known as Einstein–Rosen bridge) is a passage
                                 through spacetime creating shortcuts for long journeys across the universe.
                             </span>
-                            <img style='width:inherit;height:auto;' src='imgs/hole01.jpg'>
-                            cap
-                            <span class="bottom-span">
-                                Foundations learned from 
-                                <a href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The Science of Interstellar</a>
-                                <a href='https://physics.aps.org/story/v15/st11'>The Birth of Wormholes</a>
-
+                            <img class='def-img' style='width:inherit;height:auto;' src='imgs/hole01.jpg'>
+                            <span class='img-cap-span'>
+                                Image of wormhole from <a
+                                    href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The
+                                    Science of Interstellar</a>.
                             </span>
-                        </span> 
-                        <!-- end of frame -->
-                    </span>
+                            <span class='bottom-span grid x-small'>
+                                <a href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The
+                                    Science of Interstellar</a>
+                                <a href='https://physics.aps.org/story/v15/st11'>The Birth of Wormholes</a>
+                            </span>
+                        </span>
+                    </span> -->
 
                     works! Really! It's a very important part of this entire project. Its also key in interstellar.
                 </p>
@@ -203,6 +212,45 @@
 
 
 
+
+
+
+
+
+            <!-- 
+            <div class="w3-container compact-margins">
+                <p class="w3-xlarge nf-quote quote ct">
+                    We are hoping that
+
+                    <a href class="sticky" onMouseOver="stm(Text['wormhole'],Style['def'])" onMouseOut="htm()">wormhole</a>
+
+                    <span onclick='void(0);' class='tooltip'>
+                        wormhole
+                        <span class='info'>
+                            <span class='pronounce'>
+                                Wormhole
+                            </span>
+                            <span class='text'>
+                                A wormhole (also known as Einstein–Rosen bridge) is a passage
+                                through spacetime creating shortcuts for long journeys across the universe.
+                            </span>
+                            <img class='def-img' style='width:inherit;height:auto;' src='imgs/hole01.jpg'>
+                            <span class='img-cap-span'>
+                                Image of wormhole from <a
+                                    href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The
+                                    Science of Interstellar</a>.
+                            </span>
+                            <span class='bottom-span grid x-small'>
+                                <a href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The
+                                    Science of Interstellar</a>
+                                <a href='https://physics.aps.org/story/v15/st11'>The Birth of Wormholes</a>
+                            </span>
+                        </span>
+                    </span>
+
+                    works! Really! It's a very important part of this entire project. Its also key in interstellar.
+                </p>
+            </div> -->
 
             <div class="bigassdiv"></div>
 
