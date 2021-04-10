@@ -4,7 +4,7 @@
   position: relative;
   top: 50%;
   left: 50%;
-  width: 400px;
+  width: 40px;
   height: 400px;
   margin-top: -200px;
   margin-left: -200px;
@@ -44,6 +44,15 @@
   margin: 20px 0;
 }
 
+.bottom-span {
+font-size: x-small;
+color:black;
+background-color: rgb(218 218 218);
+display:block;
+line-height:150%;
+padding:5px;
+}
+
 .quote .author {
   font-weight: 300;
   font-style: italic;
@@ -69,9 +78,12 @@
   /* padding: 0px 4px 2.5px 4px; */
   margin: -10px 0;
   cursor: pointer;
-  text-decoration-line: underline;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
   text-decoration-style: solid;
   text-decoration-color: rgb(13, 141, 214);
+  color:rgb(97, 195, 252);
+
 }
 
 .tooltip:hover {
@@ -81,29 +93,25 @@
   /* opacity: 0.75; */
 
   /* text-decoration-color: rgb(55, 98, 240) !important; */
-  text-decoration-style:dashed;
+  text-decoration-style:solid;
 
+  text-decoration: underline !important;
+  /* text-decoration-color: rgb(188, 211, 253); */
+  /* color:rgb(188, 211, 253); */
 
   /* text-decoration-line: none; */
   /* background: rgb(13, 141, 214); */
-}
 
-.nf-tooltip:hover {
-  /* background-image: url("../imgs/space02.jpg"); */
-  /* background-size: cover; */
-  /* position: absolute; */
-  /* opacity: 0.75; */
-  text-decoration-line: underline !important;
-  text-decoration: yellow !important;
-  text-decoration-style: dashed !important;
-  background: transparent !important;
-  /* background: rgb(13, 141, 214); */
 }
 
 .quote .tooltip:hover .info, .quote .tooltip:focus .info {
   visibility: visible;
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+.pronounce {
+  text-align: center;
 }
 
 .quote .tooltip .info {
@@ -118,7 +126,9 @@
   border: rgb(13, 141, 214);
   color: black;
   width: 300px;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 14px;
+
   line-height: 24px;
   cursor: text;
   visibility: hidden;

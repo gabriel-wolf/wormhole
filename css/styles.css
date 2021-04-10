@@ -23,7 +23,7 @@ html {
 }
 
 p {
-  font-size: 20px;
+  /* font-size:x-large; */
 }
 
 h1 {
@@ -49,6 +49,36 @@ div.sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky !important;
   top: 0;
+}
+
+
+.bigassdiv {
+  height:1000px;
+}
+
+.spacer {
+  height: 50px;
+}
+
+
+.compact-margins {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+/* temp spot for new dict popup styles */
+
+.sticky {
+  color:rgb(74, 252, 148);
+  text-decoration: none;
+  /* color:#0ec058; */
+
+}
+
+.sticky:hover {
+  text-decoration: underline;
 }
 
 
