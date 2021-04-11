@@ -56,17 +56,17 @@ function swapall(t) {
                   
                 ];
             } if (ct[3] == "") {
-                AUTID = "title";
+                AUTID = "author";
             } if (ct[4] == "") {
                 USEIMG = false;
             } if (ct[5] == "") {
                 IMGLOC = "";
             } if (ct[6] == "") {
-                IMGCAPA = "";
+                IMGCAPA = "Image from ";
             } if (ct[7] == "") {
                 IMGSRC = "";
             } if (ct[8] == "") {
-                IMGCAPB = "";
+                IMGCAPB = ".";
             }
 
 

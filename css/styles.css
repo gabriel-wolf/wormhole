@@ -22,9 +22,9 @@ p {
   /* font-size:x-large; */
 }
 
+/* 
 h1 {
-  font-size: 52px;
-}
+} */
 
 .invisible-button {
   background-color: transparent;
@@ -112,4 +112,85 @@ pre {
 
 .large {
   font-size: large !important;
+}
+
+.outline {
+  width: fit-content;
+  /* padding: 0px 15vw; */
+  outline: solid;
+  outline-style: ridge;
+  width: fit-content;
+  /* padding: 0px 15vw; */
+  padding: 0px 25px;
+}
+
+h1 {
+  color: #fa5353;
+  font-size: 3.2rem;
+  /* margin-top: 55px; */
+  /* margin-bottom: 30px; */
+}
+
+h2 {
+  color: lightgreen;
+  font-size: 2.2rem;
+  /* margin-top: 55px; */
+  /* margin-bottom: 30px; */
+}
+
+h3 {
+  color: rgb(220, 236, 71);
+  font-size: 2rem;
+  /* margin-top: 55px; */
+  /* margin-bottom: 30px; */
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: currentColor;
+}
+
+
+.left {
+  text-align: left !important;
+}
+
+.right {
+  text-align: right !important;
+}
+
+
+
+
+
+
+.img-comp-container {
+  position: relative;
+  height: 500px; /*should be the same height as the images*/
+  
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
 }
