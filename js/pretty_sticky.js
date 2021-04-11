@@ -1,3 +1,11 @@
+        
+function book(t, name) {
+    var el = t[name];
+    var toout = "<a href='" + t[name][0] + "'>" + name + "</a>"
+    return toout;
+}
+
+
 function swapall(t) {
     var a = document.getElementsByClassName("swapme");
     var i;
@@ -6,51 +14,79 @@ function swapall(t) {
         var x = a[i];
         // x.style.color="red";
         var cont = x.innerHTML;
-        
-        
-function book(name) {
-    var el = t[name];
-    var toout = "<a href='" + t[name][0] + "'>" + name + "</a>"
-    return toout;
-}
+        var ct = t[cont];
+
+        // t['term'] = [tit,bod,srcs,autit,useimg,imgloc,imgcapa,imgsrc,imgcapb]
+
+        if (t[0] == "") {
+            
+        } if (t[1] == "") {
+            
+        } if (t[2] == "") {
+            
+        } if (t[3] == "") {
+            
+        } if (t[4] == "") {
+            
+        } if (t[5] == "") {
+            
+        } if (t[6] == "") {
+            
+        } if (t[7] == "") {
+            
+        } if (t[8] == "") {
+            
+        }
+       
+
 
 var l1 = "<span onclick='void(0);' class='tooltip'>";
-var INLINENAME = "wormhole";
+var TERM = cont;
 var l2 = "<span class='info'><span class='pronounce'>";
-var TITLE = "Wormhole";
+var TIT = "Wormhole";
 var l3 = "</span><span class='text'>";
-var BODY = "A wormhole (also known as Einstein–Rosen bridge) is a passage through spacetime creating shortcuts for long journeys across the universe.";
-var l3 = "</span>";
-var l4IMG = "<img class='def-img' style='width:inherit;height:auto;' src=";
-var IMGLOC = "'imgs/hole01.jpg'";
-var l5IMG = "><span class='img-cap-span'>";
-var IMGCAP1 = "Image from: ";
-var IMGSRC = "<a href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The Science of Interstellar</a>";
-var IMGCAP2 = ".";
-var l6 = "</span><span class='bottom-span grid x-small'>";
+var BOD = "A wormhole (also known as Einstein–Rosen bridge) is a passage through spacetime creating shortcuts for long journeys across the universe.";
+var l3a = "</span>";
+
+var USEIMG = false;
+var allIMG = "";
+if (USEIMG == true) {
+    var l4IMG = "<img class='def-img' style='width:inherit;height:auto;' src=";
+    var IMGLOC = "'imgs/hole01.jpg'";
+    var l5IMG = "><span class='img-cap-span'>";
+    var IMGCAPA = "Image from: ";
+    var IMGSRC = "<a href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The Science of Interstellar</a>";
+    var IMGCAPB = ".";
+    var l5a = "</span>";
+    allIMG = l4IMG + IMGLOC + l5IMG + IMGCAPA + IMGSRC + IMGCAPB + l5a;
+} else {
+    allIMG = "";
+}
+
+
+var l6 = "<span class='bottom-span grid x-small'>";
 var SOURCELIST = [
-    "<a href='https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378'>The Science of Interstellar</a>",
-    "<a href='https://physics.aps.org/story/v15/st11'>The Birth of Wormholes</a>"
+    "The Science of Interstellar",
+    "The Birth of Wormholes"
 ];
 var SOURCESTEXT = "";
 var j;
 for (j=0;j<SOURCELIST.length;j++) {
-    SOURCESTEXT = SOURCESTEXT + SOURCELIST[j];
+    SOURCESTEXT = SOURCESTEXT + book(t, SOURCELIST[j]);
 }
 var l7 = "</span></span></span>";
 
+
+
 console.log(SOURCESTEXT);
 
+        // l1 + TERM + l2 + TIT + l3 + BOD + l3a + allIMG + l6 + SOURCESTEXT + l7
 
 
-INLINENAME
-TITLE
-BODY
-IMGLOC
-IMGCAP1
-IMGSRC
-IMGCAP2
-SOURCELIST
+        var final = l1 + TERM + l2 + TIT + l3 + BOD + l3a + allIMG + l6 + SOURCESTEXT + l7;
+
+        console.log(final);
+
 
 
 
