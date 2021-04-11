@@ -20,7 +20,7 @@
 .quote {
   position: relative;
   /* margin-top: 90px; */
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
 
 /* .quote:before {
@@ -95,7 +95,7 @@ border-radius: 0px 0px 10px 10px;
   /* background: #0b6383; */
   /* background-image: url("../imgs/space01.jpg"); */
   /* background-size: cover;  */
-  padding: 0px 8px 5px 8px;
+  /* padding: 0px 8px 5px 8px; */
   /* padding: 0px 4px 2.5px 4px; */
   margin: -10px 0;
   cursor: pointer;

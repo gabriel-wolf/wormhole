@@ -14,34 +14,40 @@ Text['wormhole'] = [ // inline term
     "." // pt 2 photo caption
 ]
 
-Text['singularity'] = [
-    "sing",
-    "these heeeya are amazing",
-    [""],
-    "title",
-    false,
-    "",
+Text['me'] = [ 
+    "Gabriel Wolf",
+    "Creator of this website. Many sources would say that he is a <b><i>very<i><b> cool cat.",
+    ["Gabe"],
+    "author",
+    true,
+    "../imgs/gabeimg.jpeg", 
+    "Photo of Gabe in ",
+    "Sandusky",
+    " over Spring Break."
+]
+
+Text['our brane'] = [ 
+    "Our Brane (Our Universe)", 
+    "Structure linking disparate points in spacetime.", 
+    ["Gabe","What Are Bulk Beings?"],  
+    "author", 
+    false, 
+    "../imgs/wormhole01.jpg", 
+    "Image of wormhole from ", 
+    "A black hole circling a wormhole would emit weird gravitational waves", 
+    "." 
+]
+
+
+
+Text['GitHub'] = ["Wormhole","Structure linking disparate points in spacetime.",["",""],"author",false,"", 
     "",
     "",
     ""
 ]
 
-Text['waste'] = [
-    "wasted",
-    "these waste waste are amazing",
-    [""],
-    "title",
-    false,
-    "",
-    "",
-    "",
-    ""
-]
 
-
-
-
-
+Text['Sandusky'] = ["http://www.ci.sandusky.oh.us/", "City of Sandusky"]
 Text['Gabe'] = ["https://www.help.hawken.edu", "Gabriel Wolf"]
 Text['The Science of Interstellar'] = ["https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378","Kip Thorne"]
 Text['New Improved Wormholes'] = ["www.npl.washington.edu/av/altvw103.html#:~:text=Wormholes%20have%20a%20strong%20tendency,matter%22%20objects%20with%20negative%20masses","woo"]

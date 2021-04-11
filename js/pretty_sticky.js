@@ -1,15 +1,23 @@
 
 function book(t, name, which = "title") {
-    var el = t[name];
-    var auth = t[name][1];
-    console.log(el)
     var toout = "";
-    if (which == "author") {
-        toout = "<a href='" + t[name][0] + "'>" + auth + "</a>"
-    } else {
-        toout = "<a href='" + t[name][0] + "'>" + name + "</a>"
+    try {
+        var el = t[name];
+        var auth = t[name][1];
+        console.log(el)
+        if (which == "author") {
+            toout = "<a href='" + t[name][0] + "'>" + auth + "</a>"
+        } else {
+            toout = "<a href='" + t[name][0] + "'>" + name + "</a>"
+        }
+        return toout;
+    } catch(err) {
+        console.log("in author error");
+        console.log(err);
+        toout = "<a href='" + name + "'>" + name + "</a>"
+        return toout
     }
-    return toout;
+
 }
 
 
@@ -40,26 +48,25 @@ function swapall(t) {
 
             var TERM = cont;
             if (ct[0] == "") {
-                TIT = "Wormhole";
+                TIT = "Title";
             } if (ct[1] == "") {
-                BOD = "A wormhole (also known as Einstein–Rosen bridge) is a passage through spacetime creating shortcuts for long journeys across the universe.";
+                BOD = "Body.";
             } if (ct[2] == "") {
                 SOURCELIST = [
-                    "The Science of Interstellar",
-                    "The Birth of Wormholes"
+                  
                 ];
             } if (ct[3] == "") {
                 AUTID = "title";
             } if (ct[4] == "") {
                 USEIMG = false;
             } if (ct[5] == "") {
-                IMGLOC = "'imgs/hole01.jpg'";
+                IMGLOC = "";
             } if (ct[6] == "") {
-                IMGCAPA = "Image from: ";
+                IMGCAPA = "";
             } if (ct[7] == "") {
-                IMGSRC = "The Science of Interstellar";
+                IMGSRC = "";
             } if (ct[8] == "") {
-                IMGCAPB = ".";
+                IMGCAPB = "";
             }
 
 
@@ -69,7 +76,7 @@ function swapall(t) {
             var l2 = "<span class='info'><span class='pronounce'>";
             var l3 = "</span><span class='text'>";
             var l3a = "</span>";
-            var l4IMG = "<img class='def-img' style='width:inherit;height:auto;' src=";
+            var l4IMG = "<img class='def-img' style='width:300px;height:auto;' src=";
             var l5IMG = "><span class='img-cap-span'>";
             var l5a = "</span>";
             var allIMG = "";
@@ -101,7 +108,8 @@ function swapall(t) {
         }
         catch (err) {
             console.log("error error error");
-            a[i].innerHTML = "<p style='color:red;'>[FAILD TO RETREIVE DATA]</p>";
+            console.log(err);
+            a[i].innerHTML = "[" + cont + "]";
         }
     }
 }
