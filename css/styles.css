@@ -91,17 +91,25 @@ div.sticky {
 
 pre {
   text-align: center;
+  margin: 10px 0px 10px 0px !important;
   /* margin: 3% 10% 3% 10% !important; */
-  margin: 3% 25% 3% 25% !important;
+  /* margin: 3% 25% 3% 25% !important; */
   /* margin: 0px 0px 0px 0px !important; */
   /* background-color: #101010 !important; */
   background-color: transparent !important;
   border-radius: 5px !important;
-  font-size: large !important;
   /* width: fit-content !important; */
   padding: 1.3% 2% 1.3% 2% !important;
 }
 
 .center-div {
   text-align: center;
+}
+
+.medium {
+  font-size: medium !important;
+}
+
+.large {
+  font-size: large !important;
 }

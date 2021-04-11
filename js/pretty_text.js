@@ -40,15 +40,11 @@ Text['our brane'] = [
 
 
 
-Text['GitHub'] = ["Wormhole","Structure linking disparate points in spacetime.",["",""],"author",false,"", 
-    "",
-    "",
-    ""
-]
+Text['GitHub'] = ["GitHub","An online code storage repository. Code for this site is at <a href='https://github.com/gabriel-wolf/wormhole'>this link</a>.",["",""],"author",false,"","","",""]
 
 
 Text['Sandusky'] = ["http://www.ci.sandusky.oh.us/", "City of Sandusky"]
-Text['Gabe'] = ["https://www.help.hawken.edu", "Gabriel Wolf"]
+Text['Gabe'] = ["https://help.hawken.edu/portal/en/home", "Gabriel Wolf"]
 Text['The Science of Interstellar'] = ["https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378","Kip Thorne"]
 Text['New Improved Wormholes'] = ["www.npl.washington.edu/av/altvw103.html#:~:text=Wormholes%20have%20a%20strong%20tendency,matter%22%20objects%20with%20negative%20masses","woo"]
 Text['The Birth of Wormholes'] = ["https://physics.aps.org/story/v15/st11","woo"]
