@@ -13,13 +13,14 @@
   display: none;
 }
 
+
 html {
   /* margin: 15px; */
   /* scroll-behavior: smooth; */
 }
 
 p {
-  /* font-size:x-large; */
+  font-size:large;
 }
 
 /* 
@@ -125,22 +126,25 @@ pre {
 }
 
 h1 {
-  color: #fa5353;
-  font-size: 3.0rem;
+  /* color: #fa5353; */
+  color: lightgreen;
+
+  /* color: lightgreen; */
+  font-size: 3.1rem;
   margin-top: 55px;
   /* margin-bottom: 30px; */
 }
 
 h2 {
-  color: lightgreen;
-  font-size: 2.2rem;
+  color:rgb(14, 255, 243);
+  font-size: 2.6rem;
   margin-top: 55px;
   /* margin-bottom: 30px; */
 }
 
 h3 {
-  color: rgb(220, 236, 71);
-  font-size: 2rem;
+  color: rgb(255, 247, 137);
+  font-size: 2.1rem;
   margin-top: 55px;
   /* margin-bottom: 30px; */
 }

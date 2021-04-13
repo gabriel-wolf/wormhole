@@ -101,9 +101,13 @@ function sync() {
       visibleItems += 1;
       
       item.listItem.classList.add( 'visible' );
+      item.listItem.classList.remove( 'notvisible' );
+
     }
     else {
       item.listItem.classList.remove( 'visible' );
+      item.listItem.classList.add( 'notvisible' );
+
     }
     
   } );

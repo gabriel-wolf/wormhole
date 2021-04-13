@@ -27,6 +27,11 @@
     font-weight:400;
     transform: translate(5px);
   }
+
+  .toc li.notvisible > a {
+      visibility: hidden;
+
+}
   
   .toc-marker {
     position: absolute;
