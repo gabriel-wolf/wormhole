@@ -72,7 +72,7 @@ function initComparisons() {
     window.addEventListener("mouseup", slideFinish);
     /* Or touched (for touch screens: */
     slider.addEventListener("touchstart", slideReady);
-     /* And released (for touch screens: */
+    /* And released (for touch screens: */
     window.addEventListener("touchend", slideFinish);
     function slideReady(e) {
       /* Prevent any other actions that may occur when moving over the image: */
@@ -123,3 +123,45 @@ function initComparisons() {
 
 
 
+
+
+const VideoController = function (isHovering, videoElement) {
+  if (isHovering == true) {
+    videoElement.play();
+    var elems = document.getElementsByClassName("middleofvid");
+    var i;
+    for (i = 0; i < elems.length; i++) {
+      // console.log(elems[i]);
+      // elems[i].style.display = "none";
+    }
+    var chil = videoElement.parentElement.childNodes;
+    // console.log(chil);
+      var j;
+      for (j = 0; j <= chil.length; j++) {
+        // console.log(chil[j]);
+        // console.log(chil[j].className);
+        try {
+          if(chil[j].className.includes("middleofvid") == true) {
+            chil[j].style.display = "none";
+          }
+        }
+        catch(err) {
+
+        }
+        
+
+      
+        // elems[j].style.display = "none";
+      }
+
+  }
+  else if (isHovering == false) {
+    videoElement.pause();
+    var elems = document.getElementsByClassName("middleofvid");
+    var i;
+    for (i = 0; i < elems.length; i++) {
+      // console.log(elems[i]);
+      elems[i].style.display = "block";
+    }
+  }
+}
