@@ -150,7 +150,8 @@ const VideoController = function (isHovering, videoElement) {
         }
         
 
-      
+        videoElement.style.width = "85%";
+
         // elems[j].style.display = "none";
       }
 
@@ -163,5 +164,7 @@ const VideoController = function (isHovering, videoElement) {
       // console.log(elems[i]);
       elems[i].style.display = "block";
     }
+    videoElement.style.width = "35%";
+
   }
 }
