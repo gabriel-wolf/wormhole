@@ -39,10 +39,39 @@ Text['the bulk'] = [
 
 Text['bulk beings'] = [
     "Bulk Beings",
-    "A higher-dimensional space within which the 11 dimensions of our universe (3 we can see, plus time, plus 7 we can't see) exist.",
+    "",
     ["An ‘Interstellar’ Explainer: What Are Bulk Beings?"],
     "author", true, "../imgs/ourbranediagramwithlengths.jpeg", "", "", ""
 ]
+
+Text['Einstein-Rosen Bridge'] = [
+    "Einstein-Rosen Bridge",
+    "One of the original wormhole theories. Discovered by Albert Einstein and Nathan Rosen.",
+    ["The Einstein-Rosen Bridge"],
+    "author", true, "../imgs/handdrawnbridge.webp", "", "", ""
+]
+
+
+Text['singularity'] = [
+    "Singularities",
+    "A place where space and time are infintely warped.",
+    ["The Science of Interstellar"],
+    "author", true, "../imgs/tumblr_2066a0a854d417424286d2cea164a425_d829930f_400.gif", "", "Tumblr", ""
+]
+
+Text['pinches off'] = [
+    "Pinch Off",
+    "The worst nightmare of singularities across the multiverse.",
+    [""],
+    "author", true, "../imgs/pinchoff.gif", "", "", ""
+]
+
+
+
+
+
+
+
 
 
 

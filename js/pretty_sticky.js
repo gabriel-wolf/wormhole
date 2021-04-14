@@ -111,7 +111,7 @@ function swapall(t) {
         catch (err) {
             console.log("error error error");
             console.log(err);
-            a[i].innerHTML = "[" + cont + "]";
+            a[i].innerHTML = "" + cont + "";
         }
     }
 }
