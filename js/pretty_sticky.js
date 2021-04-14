@@ -1,20 +1,21 @@
 
-function book(t, name, which = "title") {
+function book(t, nme, which = "title") {
     var toout = "";
+    console.log(nme);
     try {
-        var el = t[name];
-        var auth = t[name][1];
+        var el = t[nme];
         console.log(el)
         if (which == "author") {
-            toout = "<a href='" + t[name][0] + "'>" + auth + "</a>"
+            var auth = t[nme][1];
+            toout = "<a href='" + t[nme][0] + "'>" + auth + "</a>"
         } else {
-            toout = "<a href='" + t[name][0] + "'>" + name + "</a>"
+            toout = "<a href='" + t[nme][0] + "'>" + nme + "</a>"
         }
         return toout;
     } catch(err) {
         console.log("in author error");
         console.log(err);
-        toout = "<a href='" + name + "'>" + name + "</a>"
+        toout = "<a href='" + nme + "'>" + nme + "</a>"
         return toout
     }
 
@@ -64,7 +65,8 @@ function swapall(t) {
             } if (ct[6] == "") {
                 IMGCAPA = "Image from ";
             } if (ct[7] == "") {
-                IMGSRC = "";
+                console.log(ct);
+                IMGSRC = "Google";
             } if (ct[8] == "") {
                 IMGCAPB = ".";
             }
@@ -81,7 +83,7 @@ function swapall(t) {
             var l5a = "</span>";
             var allIMG = "";
             if (USEIMG == true) {
-                allIMG = l4IMG + IMGLOC + l5IMG + IMGCAPA + book(t, IMGSRC) + IMGCAPB + l5a;
+                allIMG = l4IMG + IMGLOC + l5IMG + IMGCAPA + book(t, IMGSRC, "author") + IMGCAPB + l5a;
             } else {
                 allIMG = "";
             }

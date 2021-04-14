@@ -20,23 +20,29 @@ Text['brane'] = [
     "Branes",
     "0-brane (0d) = a point<br>1-brane (1d) = a string<br>2-brane (2d) = a membrane<br>p-brane (pd) = p-dimension object",
     ["Brane - physics"],
-    "author", false, "", "", "", ""
+    "author", true, "../imgs/Dimenshuns.gif", "", "Tumblr", ""
 ]
 
 Text['our brane'] = [
     "Our Brane (Our Universe)",
     "<i>The 2D universe we live our 3D lies in right now.</i><br><br>All our matter, forces, and fields are confined to this brane EXCEPT gravity and the warping of spacetime associated with gravity. (See 'brane' for more info on branes in general)",
     ["An ‘Interstellar’ Explainer: What Are Bulk Beings?"],
-    "author", false, "", "", "", ""
+    "author", true, "../imgs/universeandothersfrombulk.png", "", "", ""
 ]
 
 Text['the bulk'] = [
     "The Bulk (Hyperspace)",
-    "<i>The 2D universe we live our 3D lies in right now.</i> All our matter, forces, and fields are confined to this brane EXCEPT gravity and the warping of spacetime associated with gravity.",
+    "A higher-dimensional space within which the 11 dimensions of our universe (3 we can see, plus time, plus 7 we can't see) exist.",
     ["An ‘Interstellar’ Explainer: What Are Bulk Beings?"],
-    "author", false, "", "", "", ""
+    "author", true, "../imgs/ourbranediagramwithlengths.jpeg", "", "", ""
 ]
 
+Text['bulk beings'] = [
+    "Bulk Beings",
+    "A higher-dimensional space within which the 11 dimensions of our universe (3 we can see, plus time, plus 7 we can't see) exist.",
+    ["An ‘Interstellar’ Explainer: What Are Bulk Beings?"],
+    "author", true, "../imgs/ourbranediagramwithlengths.jpeg", "", "", ""
+]
 
 
 
@@ -57,10 +63,10 @@ Text['me'] = [
 ]
 
 
-Text['GitHub'] = ["GitHub", "An online code storage repository. Code for this site is at <a href='https://github.com/gabriel-wolf/wormhole'>this link</a>.", ["", ""], "author", false, "", "", "", ""]
 
 
-
+Text['Tumblr'] = ["https://www.tumblr.com", "Tumblr"]
+Text['Google'] = ["https://www.google.com", "Google"]
 Text['Sandusky'] = ["http://www.ci.sandusky.oh.us/", "City of Sandusky"]
 Text['Gabriel Wolf'] = ["https://github.com/gabriel-wolf", "Gabriel Wolf"]
 Text['The Science of Interstellar'] = ["https://www.amazon.com/Science-Interstellar-Kip-Thorne/dp/0393351378", "Kip Thorne"]
@@ -73,3 +79,5 @@ Text['Interstellar (2014)'] = ["https://www.imdb.com/title/tt0816692/", "Christo
 Text['The Universe Is Made of Tiny Bubbles Containing Mini-Universes, Scientists Say'] = ["https://www.vice.com/en/article/j5yngp/the-universe-is-made-of-tiny-bubbles-containing-mini-universes-scientists-say", "Carly Minsky"]
 Text['An ‘Interstellar’ Explainer: What Are Bulk Beings?'] = ["https://wwnorton.medium.com/an-interstellar-explainer-what-are-bulk-beings-1f0d0d99f847", "W. W. Norton & Company"]
 Text['Brane - physics'] = ['https://www.britannica.com/science/brane', "Britannica"]
+
+Text['GitHub'] = ["GitHub", "An online code storage repository. Code for this site is at <a href='https://github.com/gabriel-wolf/wormhole'>this link</a>.", ["", ""], "author", false, "", "", "", ""]
