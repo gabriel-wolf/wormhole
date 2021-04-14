@@ -30,7 +30,11 @@
 
   .toc li.notvisible > a {
       visibility: hidden;
+  }
 
+  .toc li.notvisible:hover > a {
+    color: #818181;
+    visibility: visible;
 }
   
   .toc-marker {
