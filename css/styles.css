@@ -171,7 +171,7 @@ h3 {
 
 .img-comp-container {
   position: relative;
-  height: 500px; /*should be the same height as the images*/
+  height: 700px; /*should be the same height as the images*/
   
 }
 
@@ -184,7 +184,7 @@ h3 {
 
 .img-comp-img img {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .img-comp-slider {
