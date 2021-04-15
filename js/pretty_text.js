@@ -73,10 +73,74 @@ Text['pass through'] = [
     "author", true, "../imgs/viewfrom2d3ddiagram.jpeg", "3D sphere passing through a 2D brane from inside the 2D brane (left) and the 3D bulk (right) from ", "", ""
 ]
 
+Text['warping of spacetime'] = [
+    "Warping of Spacetime (Due to Gravity)",
+    "(In image below)<br>Warping of spacetime due to rotating 3D object passing through 2D brane (from inside 2D brane)",
+    [""],
+    "author",true,"../imgs/warpinggrid.gif","","",""
+]
+
+Text['traversable wormholes'] = [
+    "Traversable Wormholes",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
 
 
+// 
+// 
+// 
 
 
+Text['Gravitating Bodies'] = [
+    "Gravitating Bodies",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+Text['bend light rays inward'] = [
+    "Inward Bend Light Rays",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+Text['Negative Masses'] = [
+    "Negative Masses",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+Text['bend light rays outwards'] = [
+    "Outward Bend Light Rays",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+Text['negative energy'] = [
+    "Negative Energy",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+Text['mouth of a wormhole'] = [
+    "Mouth of Wormhole",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+Text['Exotic Matter'] = [
+    "Exotic Matter",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
 
 
 
@@ -113,5 +177,6 @@ Text['Interstellar (2014)'] = ["https://www.imdb.com/title/tt0816692/", "Christo
 Text['The Universe Is Made of Tiny Bubbles Containing Mini-Universes, Scientists Say'] = ["https://www.vice.com/en/article/j5yngp/the-universe-is-made-of-tiny-bubbles-containing-mini-universes-scientists-say", "Carly Minsky"]
 Text['An ‘Interstellar’ Explainer: What Are Bulk Beings?'] = ["https://wwnorton.medium.com/an-interstellar-explainer-what-are-bulk-beings-1f0d0d99f847", "W. W. Norton & Company"]
 Text['Brane - physics'] = ['https://www.britannica.com/science/brane', "Britannica"]
+Text['Will we ever travel in wormholes'] = ['https://www.bbc.com/future/article/20140326-will-we-ever-travel-in-wormholes', "Marcus Woo"]
 
 Text['GitHub'] = ["GitHub", "An online code storage repository. Code for this site is at <a href='https://github.com/gabriel-wolf/wormhole'>this link</a>.", ["", ""], "author", false, "", "", "", ""]
