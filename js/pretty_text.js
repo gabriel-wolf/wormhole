@@ -143,6 +143,15 @@ Text['Exotic Matter'] = [
 ]
 
 
+Text['quantum foam'] = [
+    "Quantum Foam",
+    "A wormhole that does not pinch off.",
+    ["The Science of Interstellar"],
+    "author",false,"","","",""
+]
+
+
+
 
 
 

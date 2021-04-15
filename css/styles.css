@@ -358,3 +358,28 @@ figcaption {
   video {
     transition: width 1.5s ease 0.25s;
   }
+
+
+
+  .jx-labeex {
+    font-size: large;
+    background: black !important;
+    white-space: nowrap !important;
+    display:inline-block !important;
+}
+
+.jx-label {
+    width:100%;
+    padding: 10px 0px 10px 0px !important;
+    font-size: xx-large !important;
+    /* font-weight: 600; */
+    white-space: nowrap !important;
+}
+
+.jx-left {
+    text-align: left;
+}
+
+.jx-right {
+    text-align: right;
+}
