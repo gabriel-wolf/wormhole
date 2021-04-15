@@ -66,7 +66,12 @@ Text['pinches off'] = [
     "author", true, "../imgs/pinchoff.gif", "", "", ""
 ]
 
-
+Text['pass through'] = [
+    "Pass Through",
+    "",
+    [""],
+    "author", true, "../imgs/viewfrom2d3ddiagram.jpeg", "3D sphere passing through a 2D brane from inside the 2D brane (left) and the 3D bulk (right) from ", "", ""
+]
 
 
 
