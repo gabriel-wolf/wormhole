@@ -54,7 +54,7 @@ Text['Einstein-Rosen Bridge'] = [
 
 Text['singularity'] = [
     "Singularities",
-    "A place where space and time are infintely warped.",
+    "A place where space and time are infinitely warped.",
     ["The Science of Interstellar"],
     "author", true, "../imgs/tumblr_2066a0a854d417424286d2cea164a425_d829930f_400.gif", "", "Tumblr", ""
 ]
@@ -125,7 +125,7 @@ Text['negative energy'] = [
 
 Text['mouth of a wormhole'] = [
     "Mouth of Wormhole",
-    "Yeah. It's what you would think. Enterance/Exit of wormhole.<br>Look at image.<br><br>Still don't understand?<br><i>Sorry, there's a minimum comprehension level on this site, you might be asked to leave.</i>",
+    "Yeah. It's what you would think. Entrance/Exit of wormhole.<br>Look at image.<br><br>Still don't understand?<br><i>Sorry, there's a minimum comprehension level on this site, you might be asked to leave.</i>",
     [""],
     "author", true, "../imgs/entex.jpeg", "", "", ""
 ]
@@ -146,8 +146,8 @@ Text['quantum foam'] = [
 ]
 
 
-Text['naturally occuring wormholes'] = [
-"Naturally Occuring Wormholes",
+Text['naturally occurring wormholes'] = [
+"Naturally Occurring Wormholes",
 "Wormholes are not a naturally occurring phenomenon.<br>Fight me.",
 [""],
 "author",false,"","","",""
