@@ -77,77 +77,80 @@ Text['warping of spacetime'] = [
     "Warping of Spacetime (Due to Gravity)",
     "(In image below)<br>Warping of spacetime due to rotating 3D object passing through 2D brane (from inside 2D brane)",
     [""],
-    "author",true,"../imgs/warpinggrid.gif","","",""
+    "author", true, "../imgs/warpinggrid.gif", "", "", ""
 ]
 
 Text['traversable wormholes'] = [
     "Traversable Wormholes",
     "A wormhole that does not pinch off.",
     ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "author", false, "", "", "", ""
 ]
-
-
-// 
-// 
-// 
 
 
 Text['Gravitating Bodies'] = [
     "Gravitating Bodies",
-    "A wormhole that does not pinch off.",
-    ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "A body held together by the gravitational attraction of its own parts.<br><br>Examples:<br>Earth, Black Hole",
+    [""],
+    "author", false, "", "", "", ""
 ]
 
 Text['bend light rays inward'] = [
-    "Inward Bend Light Rays",
-    "A wormhole that does not pinch off.",
+    "Inward Bent Light Rays",
+    "Gravitating bodies result in this phenomenon.",
     ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "author", true, "../imgs/145.png", "Graphic showing light rays around the sun from ", "The Science of Interstellar", ""
 ]
 
 Text['Negative Masses'] = [
     "Negative Masses",
-    "A wormhole that does not pinch off.",
-    ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "Gravitationally repulsive negative masses.",
+    [""],
+    "author", false, "", "", "", ""
 ]
 
 Text['bend light rays outwards'] = [
-    "Outward Bend Light Rays",
-    "A wormhole that does not pinch off.",
+    "Outward Bent Light Rays",
+    "Negative masses result in this phenomenon.",
     ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "author", true, "../imgs/not145.png", "Graphic showing light rays around a wormhole from ", "The Science of Interstellar", ""
 ]
 
 Text['negative energy'] = [
     "Negative Energy",
-    "A wormhole that does not pinch off.",
-    ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "Negative energy appears in the speculative theory of wormholes, where it is needed to keep the wormhole open. But given that this whole thing is speculative, I (Gabe Wolf) thinks it's incredibly unrealistic and borderline fiction.<br><br>My views are backed up by the homie Roger Penrose, a cool cat best known for puttin the kibosh on all the wormhole nerds in 2005.",
+    ["Roger Penrose"],
+    "author", false, "", "", "", ""
 ]
 
 Text['mouth of a wormhole'] = [
     "Mouth of Wormhole",
-    "A wormhole that does not pinch off.",
-    ["The Science of Interstellar"],
-    "author",false,"","","",""
+    "Yeah. It's what you would think. Enterance/Exit of wormhole.<br>Look at image.<br><br>Still don't understand?<br><i>Sorry, there's a minimum comprehension level on this site, you might be asked to leave.</i>",
+    [""],
+    "author", true, "../imgs/entex.jpeg", "", "", ""
 ]
 
 Text['Exotic Matter'] = [
     "Exotic Matter",
     "A wormhole that does not pinch off.",
-    ["The Science of Interstellar"],
-    "author",false,"","","",""
+    [""],
+    "author", false, "", "", "", ""
 ]
 
 
 Text['quantum foam'] = [
     "Quantum Foam",
     "A wormhole that does not pinch off.",
-    ["The Science of Interstellar"],
-    "author",false,"","","",""
+    [""],
+    "author", false, "", "", "", ""
+]
+
+
+Text['naturally occuring wormholes'] = [
+"Naturally Occuring Wormholes",
+"Wormholes are not a naturally occurring phenomenon.<br>Fight me.",
+[""],
+"author",false,"","","",""
 ]
 
 
@@ -159,7 +162,7 @@ Text['Marcus Woo'] = [
     "Will we ever... travel in wormholes?",
     "<a href='https://www.bbc.com/future/article/20140326-will-we-ever-travel-in-wormholes'>BBC Article Link</a>",
     ["Will we ever travel in wormholes"],
-    "author",false,"","","",""
+    "author", false, "", "", "", ""
 ]
 
 
@@ -193,5 +196,7 @@ Text['The Universe Is Made of Tiny Bubbles Containing Mini-Universes, Scientists
 Text['An ‘Interstellar’ Explainer: What Are Bulk Beings?'] = ["https://wwnorton.medium.com/an-interstellar-explainer-what-are-bulk-beings-1f0d0d99f847", "W. W. Norton & Company"]
 Text['Brane - physics'] = ['https://www.britannica.com/science/brane', "Britannica"]
 Text['Will we ever travel in wormholes'] = ['https://www.bbc.com/future/article/20140326-will-we-ever-travel-in-wormholes', "Marcus Woo"]
+
+Text['Roger Penrose'] = ['https://en.wikipedia.org/wiki/Roger_Penrose', "Sir Roger Penrose"]
 
 Text['GitHub'] = ["GitHub", "An online code storage repository. Code for this site is at <a href='https://github.com/gabriel-wolf/wormhole'>this link</a>.", ["", ""], "author", false, "", "", "", ""]

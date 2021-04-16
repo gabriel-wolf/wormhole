@@ -29,11 +29,11 @@
   }
 
   .toc li.notvisible > a {
-      visibility: hidden;
+      /* visibility: hidden; */
   }
 
   .toc li.notvisible:hover > a {
-    color: #818181;
+    /* color: #818181; */
     visibility: visible;
 }
   
